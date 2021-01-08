@@ -1,0 +1,14 @@
+.image-container {
+    position: relative;
+}
+
+.image-info {
+    position: absolute;
+    bottom: 0;
+    background-color: firebrick;
+    color: white;
+    width: 90%;
+    margin: 5%;
+    border-radius: 5px;
+    opacity: 0.8;
+  }

@@ -1,0 +1,24 @@
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.gallery-column {
+    flex: 30%;
+    max-width: 30%;
+}
+
+@media screen and (max-width: 800px) {
+    .gallery-column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .gallery-column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
